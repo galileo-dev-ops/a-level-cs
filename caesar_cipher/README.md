@@ -21,7 +21,7 @@ The following definitions shall have the same meaning regardless of whether they
 
 For the purposes of this Disclaimer:
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Disclaimer) refers to Caesar Cipher Docs.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Disclaimer) refers to galileo-dev-ops.
 - __Service__ refers to the Website or the Application or both.
 - __You__ means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 - __Website__ refers to Caesar Cipher Docs, accessible from [https://github.com/galileo-dev-ops/code-challenges-ocr](https://github.com/galileo-dev-ops/code-challenges-ocr)
