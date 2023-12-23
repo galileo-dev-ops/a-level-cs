@@ -1,0 +1,145 @@
+/*
+---------------------------------------------------------------------------
+Classes are used to create objects, which are used to store data and
+perform actions on the data:
+- Methods are used to perform actions on the data stored in the object.
+- Attributes are used to store data in the object.
+
+Method overriding is used to override the method in the parent class
+with a method in the child class, so that the method in the child class
+is used instead of the method in the parent class
+
+Inheritance is used to inherit the properties of the parent class,
+whereby a person can use the methods configured in the parent/super class
+and can also use the methods configured in the child/sub class
+
+Encapsulation is used to hide the data from the user, so that the user
+cannot access the data directly, but can only access the data through
+the methods configured in the class
+---------------------------------------------------------------------------
+*/
+
+/*
+class Plant:    // Classes
+    private Flower     // Attributes
+    private Evergreen   // Encapsulation
+    private Height
+
+    public function new (newFlower, newEvergreen){     // Methods
+        Flower = newFlower
+        Evergreen = newEvergreen
+        Height = 0
+    }
+    end procedure
+    
+    public procedure getFlower() {
+        return Flower
+    }
+    end procedure
+    public procedure getIsEvergreen() {
+        return Evergreen
+    }
+    end procedure
+endClass
+
+plantOne = new Plant("Rose", true)
+plantTwo = new Plant("Oak", false)
+
+
+class Person:
+    private Name
+    private Age
+    private Address
+
+    public function new (newName, newAge, newAddress){
+        Name = newName
+        Age = newAge
+        Address = newAddress
+    }
+    end procedure
+    
+    public procedure getName() {
+        return Name
+    }
+    end procedure
+    public procedure getAge() {
+        return Age
+    }
+    end procedure
+    public procedure getAddress() {
+        return Address
+    }
+    end procedure
+
+
+
+class Employee inherits Person:    // Inheritance
+    private Salary
+    private JobTitle
+
+    public function new (newName, newAge, newAddress, newSalary, newJobTitle){
+        super(newName, newAge, newAddress)
+        Salary = newSalary
+        JobTitle = newJobTitle
+    }
+    end procedure
+
+    public procedure getSalary() {
+        return Salary
+    }
+    end procedure
+    public procedure getJobTitle() {
+        return JobTitle
+    }
+    end procedure
+
+Emp1 = Employee("John", 25, "123 Main St", 50000, "Manager")
+
+*/
+
+class Bird:
+    private Weight
+    private Colour
+    private Age
+
+    public function new (newWeight, newColour, newAge){
+        Weight = newWeight
+        Colour = newColour
+        Age = 0
+    }
+    end procedure
+
+    public procedure getWeight() {
+        return Weight
+    }
+    end procedure
+
+    public procedure getColour() {
+        return Colour
+    }
+    end procedure
+
+    public procedure setWeight(newWeight) {
+        Weight = newWeight
+    }
+    end procedure
+
+    public procedure setColour(newColour) {
+        Colour = newColour
+    }
+    end procedure
+
+endClass
+
+class Chicken inherits Person:
+    private EggsPerWeek
+
+    public function new getEggs() {
+        return EggsPerWeek
+    }
+    end procedure
+
+    public procedure setEggs(newEggs) {
+        EggsPerWeek = newEggs
+    }
+    end procedure
